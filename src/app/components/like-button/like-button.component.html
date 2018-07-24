@@ -1,0 +1,18 @@
+<!-- 
+[] - property binding
+{{ }} - interpolation
+() - event binding
+ngClass - attribute directive
+*ngIf - structural directive
+-->
+<!--app-first></app-first-->
+<p>likes: {{ likes }}</p>
+<button ng-disabled="likes === 1"
+  class="btn btn-primary" 
+  (click)="increment()">
+  Like
+</button>
+<br>
+
+
+<!-- <p>5 times 2 = {{ 5 * 2 }}  </p> -->
